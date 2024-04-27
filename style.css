@@ -1,0 +1,118 @@
+p{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Jua', sans-serif; 
+    background-color: #A9B4C2;    
+}
+.customerMargin{
+    margin-right: 1rem;
+}
+.customerImg{
+    margin-left: 1rem;
+}
+.loginBtn{
+    margin-right: 20px;
+}
+.modalCss{
+  --bs-modal-zindex: 0;
+
+}
+.modal{
+  --bs-modal-zindex: none;
+}
+.form-controls{
+    background-color: #A9B4C2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: black;
+    border-radius: 0;
+    padding-bottom: 0;
+}
+.container-css{
+    background-color: #7D98A1;
+    --bs-gutter-x: 0;
+    
+}
+.container-csss{
+  background-color: white;
+  
+  
+}
+.row{
+  --bs-gutter-x: none;
+}
+
+.offCanvasCss{
+  background-color: #A9B4C2; 
+}
+
+
+
+  .our-description{
+    font-size: 18px;
+  }
+  
+  .vertical-line {
+    border-left: 2px solid black; /* Adjust the color and thickness as needed */
+    margin-top:3px;
+    height: 50px; /* Make the line take the full height of the container */
+  }
+  .form-control{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .form-control{
+    padding-top: 0;
+  }
+  .navbar-togglers{
+    border: none;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .modal {
+       /* Adjust maximum width for medium screens */
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .modal {
+      margin-top: 10px; /* Adjust maximum width for medium screens */
+   }
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .modal {
+      margin-top: 10px; 
+   }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .modals {
+       /* Adjust maximum width for medium screens */
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .modals {
+      margin-top: 3px; /* Adjust maximum width for medium screens */
+   }
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .modal-content {
+      margin-top: 100px; 
+   }
+  }
+  .form-controls{
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-radius: 0;
+    background-color: #A9B4C2;
+  }
+  .form-controls input{
+    background-color: #A9B4C2;
+  }
